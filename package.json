@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "name": "chindent",
+  "version": "1.0.0",
+  "description": "Utilities to mutate string indentation",
+  "main": "index.js",
+  "repository": "https://github.com/KernelDeimos/chindent",
+  "author": "KernelDeimos <eric.alex.dube@gmail.com>",
+  "license": "MIT"
+}
