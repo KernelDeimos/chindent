@@ -84,4 +84,15 @@ describe('ipdent', () => {
         `, 8)}
     `)).equal('Hello, yes;\n  this is dog.\n  second line.\n');
   });
+  it('should not indent blank lines', () => {
+    const { heredoc, ipdent } = require('../src/index');
+    expect(heredoc(`
+      Hello, yes;
+        ${ipdent(heredoc`
+          this is dog.
+
+          second line.
+        `, 8)}
+    `)).equal('Hello, yes;\n  this is dog.\n\n  second line.\n');
+  });
 });

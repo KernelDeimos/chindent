@@ -106,7 +106,7 @@ public('ipdent', {
       space = Array(space).fill(' ').join('');
     }
     return (
-      s => [s.slice(0, 1), ...s.slice(1).map(v => space + v)]
+      s => [s.slice(0, 1), ...s.slice(1).map(v => v == '' ? '' : space + v)]
     )(str.split('\n')).join('\n')
   }
 });
