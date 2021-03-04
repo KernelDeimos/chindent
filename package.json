@@ -9,7 +9,7 @@
   "name": "chindent",
   "version": "1.0.1",
   "description": "Utilities to mutate string indentation",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/KernelDeimos/chindent",
   "author": "KernelDeimos <eric.alex.dube@gmail.com>",
   "license": "MIT"
