@@ -7,7 +7,7 @@
     "test": "mocha"
   },
   "name": "chindent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utilities to mutate string indentation",
   "main": "src/index.js",
   "repository": "https://github.com/KernelDeimos/chindent",
